@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+#取得元：https://data.darts.isas.jaxa.jp/pub/selene/sp/
+
 # ファイルパスの設定
-file_path_new = '/Users/kiyotakoki/develop/DARTS/kaguya/SPDATAread181min_SPCread_SP_2C_03_01177_S651_E1896.csv'
+file_path_new = 'kaguya_data/SPDATAread181min_SPCread_SP_2C_03_01177_S651_E1896.csv'
 
 # CSVファイルの読み込み
 df_new = pd.read_csv(file_path_new)
